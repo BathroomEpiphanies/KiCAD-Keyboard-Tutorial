@@ -1,579 +1,922 @@
-# EESchema Netlist Version 1.1 created  Sun 01 Jul 2012 10:05:32 AM CEST
+# EESchema Netlist Version 1.1 created  Thu 26 Jul 2012 01:42:58 PM CEST
 (
  ( /4EB1DF85 $noname  D0:13 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000076 )
+  (    2 /COL13 )
  )
  ( /4EB1DF84 $noname  SW0:13 CTRL {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW0 )
+  (    2 N-000076 )
  )
  ( /4EB1DF52 $noname  D0:11 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000016 )
+  (    2 /COL11 )
  )
  ( /4EB1DF51 $noname  SW0:11 MENU {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW0 )
+  (    2 N-000016 )
  )
  ( /4EB1DEF4 $noname  D0:10 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000027 )
+  (    2 /COL10 )
  )
  ( /4EB1DEF3 $noname  SW0:10 ALT {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW0 )
+  (    2 N-000027 )
  )
  ( /4EB1DE18 $noname  SW0:2 ALT {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW0 )
+  (    2 N-000031 )
  )
  ( /4EB1DE17 $noname  D0:2 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000031 )
+  (    2 /COL2 )
  )
  ( /4EB1DDEB $noname  SW0:1 SUPER {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW0 )
+  (    2 N-000042 )
  )
  ( /4EB1DDEA $noname  D0:1 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000042 )
+  (    2 /COL1 )
  )
  ( /4EB1DDD9 $noname  D0:12 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000071 )
+  (    2 /COL12 )
  )
  ( /4EB1DDD8 $noname  SW0:12 SUPER {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW0 )
+  (    2 N-000071 )
  )
  ( /4EB1DDAB $noname  SW0:0 CTRL {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW0 )
+  (    2 N-000080 )
  )
  ( /4EB1DDAA $noname  D0:0 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000080 )
+  (    2 /COL0 )
  )
  ( /4E035196 $noname  U1 TEENSY2.0 {Lib=TEENSY2.0}
   (    1 GND )
-  (    2 ? )
-  (    3 ? )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 ? )
+  (    2 /COL6 )
+  (    3 /COL7 )
+  (    4 /COL8 )
+  (    5 /COL9 )
+  (    6 /COL10 )
+  (    7 /COL11 )
   (    8 /LED_B )
   (    9 /LED_A )
-  (   10 ? )
-  (   11 ? )
-  (   12 ? )
-  (   13 ? )
+  (   10 /ROW4 )
+  (   11 /COL12 )
+  (   12 /COL13 )
+  (   13 /COL3 )
   (   14 VCC )
   (   15 GND )
   (   16 ? )
-  (   17 ? )
-  (   18 ? )
-  (   19 ? )
+  (   17 /COL0 )
+  (   18 /COL1 )
+  (   19 /COL2 )
   (   20 ? )
   (   21 ? )
   (   22 ? )
-  (   23 ? )
+  (   23 /COL4 )
   (   24 /LED_C )
-  (   25 ? )
-  (   26 ? )
-  (   27 ? )
-  (   28 ? )
+  (   25 /ROW3 )
+  (   26 /ROW2 )
+  (   27 /ROW1 )
+  (   28 /ROW0 )
   (   29 VCC )
   (   30 ? )
-  (   31 ? )
+  (   31 /COL5 )
  )
  ( /4E2BFA1A $noname  D4:13 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000066 )
+  (    2 /COL13 )
  )
  ( /4E2BFA0F $noname  SW4:13 BCKSP {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000066 )
  )
  ( /4E2ADB7D $noname  R2 R_B {Lib=RESISTOR}
-  (    1 N-000166 )
+  (    1 N-000083 )
   (    2 /LED_B )
  )
  ( /4E07882A $noname  L3 LED_C {Lib=LED}
-  (    1 N-000165 )
+  (    1 N-000085 )
   (    2 GND )
  )
  ( /4E035618 $noname  L1 LED_A {Lib=LED}
-  (    1 N-000162 )
+  (    1 N-000086 )
   (    2 GND )
  )
  ( /4E035615 $noname  L2 LED_B {Lib=LED}
-  (    1 N-000166 )
+  (    1 N-000083 )
   (    2 GND )
  )
  ( /4E03560E $noname  R1 R_A {Lib=RESISTOR}
-  (    1 N-000162 )
+  (    1 N-000086 )
   (    2 /LED_A )
  )
  ( /4E03560A $noname  R3 R_C {Lib=RESISTOR}
-  (    1 N-000165 )
+  (    1 N-000085 )
   (    2 /LED_C )
  )
  ( /4D92DFA0 $noname  SW2:5 G {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW2 )
+  (    2 N-000049 )
  )
  ( /4D9C9F69 $noname  D4:9 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000026 )
+  (    2 /COL9 )
  )
  ( /4D9C9F68 $noname  D2:9 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000024 )
+  (    2 /COL9 )
  )
  ( /4D9C9F67 $noname  D3:9 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000025 )
+  (    2 /COL9 )
  )
  ( /4D9C9F66 $noname  D1:10 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000028 )
+  (    2 /COL10 )
  )
  ( /4D9C9F62 $noname  D4:12 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000073 )
+  (    2 /COL12 )
  )
  ( /4D9C9F61 $noname  D2:13 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000064 )
+  (    2 /COL13 )
  )
  ( /4D9C9F60 $noname  D4:11 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000023 )
+  (    2 /COL11 )
  )
  ( /4D9C9F5D $noname  D4:10 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000017 )
+  (    2 /COL10 )
  )
  ( /4D9C9F5C $noname  D2:10 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000029 )
+  (    2 /COL10 )
  )
  ( /4D9C9F5B $noname  D3:10 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000019 )
+  (    2 /COL10 )
  )
  ( /4D9C9F5A $noname  D1:13 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000067 )
+  (    2 /COL13 )
  )
  ( /4D9C9F57 $noname  D1:6 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000051 )
+  (    2 /COL6 )
  )
  ( /4D9C9F56 $noname  D3:12 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000072 )
+  (    2 /COL12 )
  )
  ( /4D9C9F55 $noname  D2:11 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000021 )
+  (    2 /COL11 )
  )
  ( /4D9C9F54 $noname  D4:5 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000050 )
+  (    2 /COL5 )
  )
  ( /4D9C9F51 $noname  D4:6 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000010 )
+  (    2 /COL6 )
  )
  ( /4D9C9F50 $noname  D2:6 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000008 )
+  (    2 /COL6 )
  )
  ( /4D9C9F4F $noname  D3:6 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000009 )
+  (    2 /COL6 )
  )
  ( /4D9C9F4E $noname  D1:7 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000013 )
+  (    2 /COL7 )
  )
  ( /4D9C9F4B $noname  D1:9 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000007 )
+  (    2 /COL9 )
  )
  ( /4D9C9F4A $noname  D3:8 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000001 )
+  (    2 /COL8 )
  )
  ( /4D9C9F49 $noname  D2:8 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000004 )
+  (    2 /COL8 )
  )
  ( /4D9C9F48 $noname  D4:8 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000005 )
+  (    2 /COL8 )
  )
  ( /4D9C9F45 $noname  D4:7 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000002 )
+  (    2 /COL7 )
  )
  ( /4D9C9F44 $noname  D2:7 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000014 )
+  (    2 /COL7 )
  )
  ( /4D9C9F43 $noname  D3:7 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000015 )
+  (    2 /COL7 )
  )
  ( /4D9C9F42 $noname  D1:8 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000003 )
+  (    2 /COL8 )
  )
  ( /4D9C9F3F $noname  D1:4 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000055 )
+  (    2 /COL4 )
  )
  ( /4D9C9F3E $noname  D3:4 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000057 )
+  (    2 /COL4 )
  )
  ( /4D9C9F3D $noname  D2:4 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000056 )
+  (    2 /COL4 )
  )
  ( /4D9C9F3C $noname  D4:2 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000035 )
+  (    2 /COL2 )
  )
  ( /4D9C9F39 $noname  D4:3 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000054 )
+  (    2 /COL3 )
  )
  ( /4D9C9F38 $noname  D2:5 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000049 )
+  (    2 /COL5 )
  )
  ( /4D9C9F37 $noname  D3:5 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000046 )
+  (    2 /COL5 )
  )
  ( /4D9C9F36 $noname  D1:5 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000048 )
+  (    2 /COL5 )
  )
  ( /4D9C9F34 $noname  D0:7 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000012 )
+  (    2 /COL7 )
  )
  ( /4D9C9F2D $noname  D4:4 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000058 )
+  (    2 /COL4 )
  )
  ( /4D9C9F2B $noname  D3:11 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000022 )
+  (    2 /COL11 )
  )
  ( /4D9C9F2A $noname  D3:13 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000065 )
+  (    2 /COL13 )
  )
  ( /4D9C9F27 $noname  D1:0 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000092 )
+  (    2 /COL0 )
  )
  ( /4D9C9F26 $noname  D3:0 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000039 )
+  (    2 /COL0 )
  )
  ( /4D9C9F25 $noname  D2:0 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000038 )
+  (    2 /COL0 )
  )
  ( /4D9C9F21 $noname  D1:11 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000020 )
+  (    2 /COL11 )
  )
  ( /4D9C9F20 $noname  D2:1 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000043 )
+  (    2 /COL1 )
  )
  ( /4D9C9F1F $noname  D3:1 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000044 )
+  (    2 /COL1 )
  )
  ( /4D9C9F1B $noname  D1:3 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000041 )
+  (    2 /COL3 )
  )
  ( /4D9C9F1A $noname  D3:3 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000053 )
+  (    2 /COL3 )
  )
  ( /4D9C9F19 $noname  D2:3 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000052 )
+  (    2 /COL3 )
  )
  ( /4D9C9F18 $noname  D4:1 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000045 )
+  (    2 /COL1 )
  )
  ( /4D9C9F15 $noname  D4:0 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000040 )
+  (    2 /COL0 )
  )
  ( /4D9C9F14 $noname  D2:2 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000030 )
+  (    2 /COL2 )
  )
  ( /4D9C9F13 $noname  D3:2 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000034 )
+  (    2 /COL2 )
  )
  ( /4D9C9F12 $noname  D1:2 D {Lib=DIODE}
-  (    1 ? )
-  (    2 ? )
+  (    1 N-000032 )
+  (    2 /COL2 )
  )
  ( /4D92DFB3 $noname  SW1:13 SHIFT {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW1 )
+  (    2 N-000067 )
  )
  ( /4D92E053 $noname  SW0:7 SPACE {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW0 )
+  (    2 N-000012 )
  )
  ( /4D92DFBB $noname  SW2:6 H {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW2 )
+  (    2 N-000008 )
  )
  ( /4D92DFBA $noname  SW2:11 ' {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW2 )
+  (    2 N-000021 )
  )
  ( /4D92DFB9 $noname  SW2:7 J {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW2 )
+  (    2 N-000014 )
  )
  ( /4D92DFB8 $noname  SW2:8 K {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW2 )
+  (    2 N-000004 )
  )
  ( /4D92DFB7 $noname  SW2:9 L {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW2 )
+  (    2 N-000024 )
  )
  ( /4D92DFB6 $noname  SW2:10 ; {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW2 )
+  (    2 N-000029 )
  )
  ( /4D92DFB5 $noname  SW2:13 ENTER {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW2 )
+  (    2 N-000064 )
  )
  ( /4D92DFB2 $noname  SW1:10 . {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW1 )
+  (    2 N-000028 )
  )
  ( /4D92DFB1 $noname  SW1:9 , {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW1 )
+  (    2 N-000007 )
  )
  ( /4D92DFB0 $noname  SW1:8 M {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW1 )
+  (    2 N-000003 )
  )
  ( /4D92DFAF $noname  SW1:6 B {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW1 )
+  (    2 N-000051 )
  )
  ( /4D92DFAE $noname  SW1:7 N {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW1 )
+  (    2 N-000013 )
  )
  ( /4D92DFAD $noname  SW3:6 Y {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000009 )
  )
  ( /4D92DFAC $noname  SW3:12 } {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000072 )
  )
  ( /4D92DFAB $noname  SW3:7 U {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000015 )
  )
  ( /4D92DFAA $noname  SW3:8 I {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000001 )
  )
  ( /4D92DFA9 $noname  SW3:9 O {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000025 )
  )
  ( /4D92DFA8 $noname  SW3:10 P {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000019 )
  )
  ( /4D92DFA7 $noname  SW4:12 = {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000073 )
  )
  ( /4D92DFA6 $noname  SW2:0 CAPS {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW2 )
+  (    2 N-000038 )
  )
  ( /4D92DFA5 $noname  SW2:1 A {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW2 )
+  (    2 N-000043 )
  )
  ( /4D92DFA4 $noname  SW2:2 S {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW2 )
+  (    2 N-000030 )
  )
  ( /4D92DFA3 $noname  SW2:3 D {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW2 )
+  (    2 N-000052 )
  )
  ( /4D92DFA2 $noname  SW2:4 F {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW2 )
+  (    2 N-000056 )
  )
  ( /4D92DF9F $noname  SW1:5 V {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW1 )
+  (    2 N-000048 )
  )
  ( /4D92DF9E $noname  SW3:13 BCKSL {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000065 )
  )
  ( /4D92DF9D $noname  SW1:4 C {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW1 )
+  (    2 N-000055 )
  )
  ( /4D92DF9C $noname  SW1:3 X {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW1 )
+  (    2 N-000041 )
  )
  ( /4D92DF9B $noname  SW1:2 Z {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW1 )
+  (    2 N-000032 )
  )
  ( /4D92DF99 $noname  SW1:0 SHIFT {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW1 )
+  (    2 N-000092 )
  )
  ( /4D92DF93 $noname  SW3:0 TAB {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000039 )
  )
  ( /4D92DF92 $noname  SW3:1 Q {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000044 )
  )
  ( /4D92DF91 $noname  SW3:2 W {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000034 )
  )
  ( /4D92DF90 $noname  SW3:3 E {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000053 )
  )
  ( /4D92DF8F $noname  SW3:4 R {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000057 )
  )
  ( /4D92DF8E $noname  SW3:11 { {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000022 )
  )
  ( /4D92DF8D $noname  SW3:5 T {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW3 )
+  (    2 N-000046 )
  )
  ( /4D92DF38 $noname  SW4:11 - {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000023 )
  )
  ( /4D92DF37 $noname  SW4:10 0 {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000017 )
  )
  ( /4D92DF36 $noname  SW4:9 9 {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000026 )
  )
  ( /4D92DF35 $noname  SW4:8 8 {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000005 )
  )
  ( /4D92DF34 $noname  SW4:7 7 {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000002 )
  )
  ( /4D92DF30 $noname  SW4:3 3 {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000054 )
  )
  ( /4D92DF2F $noname  SW4:4 4 {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000058 )
  )
  ( /4D92DF2D $noname  SW4:5 5 {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000050 )
  )
  ( /4D92DF2C $noname  SW4:6 6 {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000010 )
  )
  ( /4D92DF18 $noname  SW4:2 2 {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000035 )
  )
  ( /4D92DF15 $noname  SW4:1 1 {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000045 )
  )
  ( /4D92DF12 $noname  SW4:0 TILDE {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW4 )
+  (    2 N-000040 )
  )
  ( /4D92DEE2 $noname  SW1:11 ? {Lib=SWITCH_PUSH}
-  (    1 ? )
-  (    2 ? )
+  (    1 /ROW1 )
+  (    2 N-000020 )
  )
 )
 *
 { Pin List by Nets
-Net 97 "GND" "GND"
- U1 15
- L2 2
- L1 2
- L3 2
+Net 1 "" ""
+ SW3:8 2
+ D3:8 1
+Net 2 "" ""
+ D4:7 1
+ SW4:7 2
+Net 3 "" ""
+ D1:8 1
+ SW1:8 2
+Net 4 "" ""
+ D2:8 1
+ SW2:8 2
+Net 5 "" ""
+ SW4:8 2
+ D4:8 1
+Net 6 "/COL9" "COL9"
+ D2:9 2
+ U1 5
+ D4:9 2
+ D3:9 2
+ D1:9 2
+Net 7 "" ""
+ SW1:9 2
+ D1:9 1
+Net 8 "" ""
+ SW2:6 2
+ D2:6 1
+Net 9 "" ""
+ SW3:6 2
+ D3:6 1
+Net 10 "" ""
+ D4:6 1
+ SW4:6 2
+Net 11 "/COL7" "COL7"
+ D3:7 2
+ D0:7 2
+ U1 3
+ D2:7 2
+ D4:7 2
+ D1:7 2
+Net 12 "" ""
+ SW0:7 2
+ D0:7 1
+Net 13 "" ""
+ SW1:7 2
+ D1:7 1
+Net 14 "" ""
+ SW2:7 2
+ D2:7 1
+Net 15 "" ""
+ SW3:7 2
+ D3:7 1
+Net 16 "" ""
+ D0:11 1
+ SW0:11 2
+Net 17 "" ""
+ SW4:10 2
+ D4:10 1
+Net 18 "/COL11" "COL11"
+ D4:11 2
+ D2:11 2
+ U1 7
+ D3:11 2
+ D1:11 2
+ D0:11 2
+Net 19 "" ""
+ D3:10 1
+ SW3:10 2
+Net 20 "" ""
+ D1:11 1
+ SW1:11 2
+Net 21 "" ""
+ SW2:11 2
+ D2:11 1
+Net 22 "" ""
+ SW3:11 2
+ D3:11 1
+Net 23 "" ""
+ D4:11 1
+ SW4:11 2
+Net 24 "" ""
+ D2:9 1
+ SW2:9 2
+Net 25 "" ""
+ D3:9 1
+ SW3:9 2
+Net 26 "" ""
+ D4:9 1
+ SW4:9 2
+Net 27 "" ""
+ SW0:10 2
+ D0:10 1
+Net 28 "" ""
+ D1:10 1
+ SW1:10 2
+Net 29 "" ""
+ D2:10 1
+ SW2:10 2
+Net 30 "" ""
+ D2:2 1
+ SW2:2 2
+Net 31 "" ""
+ D0:2 1
+ SW0:2 2
+Net 32 "" ""
+ D1:2 1
+ SW1:2 2
+Net 33 "/COL2" "COL2"
+ U1 19
+ D2:2 2
+ D1:2 2
+ D0:2 2
+ D4:2 2
+ D3:2 2
+Net 34 "" ""
+ SW3:2 2
+ D3:2 1
+Net 35 "" ""
+ D4:2 1
+ SW4:2 2
+Net 36 "/COL3" "COL3"
+ D4:3 2
+ D1:3 2
+ D3:3 2
+ U1 13
+ D2:3 2
+Net 37 "/COL1" "COL1"
+ D0:1 2
+ U1 18
+ D3:1 2
+ D2:1 2
+ D4:1 2
+Net 38 "" ""
+ SW2:0 2
+ D2:0 1
+Net 39 "" ""
+ SW3:0 2
+ D3:0 1
+Net 40 "" ""
+ D4:0 1
+ SW4:0 2
+Net 41 "" ""
+ D1:3 1
+ SW1:3 2
+Net 42 "" ""
+ SW0:1 2
+ D0:1 1
+Net 43 "" ""
+ SW2:1 2
+ D2:1 1
+Net 44 "" ""
+ SW3:1 2
+ D3:1 1
+Net 45 "" ""
+ D4:1 1
+ SW4:1 2
+Net 46 "" ""
+ SW3:5 2
+ D3:5 1
+Net 47 "/COL5" "COL5"
+ U1 31
+ D1:5 2
+ D3:5 2
+ D2:5 2
+ D4:5 2
+Net 48 "" ""
+ SW1:5 2
+ D1:5 1
+Net 49 "" ""
+ SW2:5 2
+ D2:5 1
+Net 50 "" ""
+ D4:5 1
+ SW4:5 2
+Net 51 "" ""
+ SW1:6 2
+ D1:6 1
+Net 52 "" ""
+ SW2:3 2
+ D2:3 1
+Net 53 "" ""
+ SW3:3 2
+ D3:3 1
+Net 54 "" ""
+ SW4:3 2
+ D4:3 1
+Net 55 "" ""
+ D1:4 1
+ SW1:4 2
+Net 56 "" ""
+ D2:4 1
+ SW2:4 2
+Net 57 "" ""
+ D3:4 1
+ SW3:4 2
+Net 58 "" ""
+ SW4:4 2
+ D4:4 1
+Net 59 "/ROW2" "ROW2"
+ SW2:13 1
+ SW2:3 1
+ U1 26
+ SW2:9 1
+ SW2:8 1
+ SW2:10 1
+ SW2:7 1
+ SW2:11 1
+ SW2:4 1
+ SW2:6 1
+ SW2:1 1
+ SW2:0 1
+ SW2:2 1
+ SW2:5 1
+Net 60 "/ROW0" "ROW0"
+ SW0:1 1
+ SW0:7 1
+ SW0:12 1
+ SW0:0 1
+ U1 28
+ SW0:13 1
+ SW0:11 1
+ SW0:10 1
+ SW0:2 1
+Net 63 "/ROW1" "ROW1"
+ SW1:5 1
+ SW1:4 1
+ SW1:6 1
+ SW1:2 1
+ SW1:10 1
+ SW1:9 1
+ SW1:8 1
+ SW1:7 1
+ SW1:3 1
+ SW1:0 1
+ U1 27
+ SW1:11 1
+ SW1:13 1
+Net 64 "" ""
+ D2:13 1
+ SW2:13 2
+Net 65 "" ""
+ SW3:13 2
+ D3:13 1
+Net 66 "" ""
+ D4:13 1
+ SW4:13 2
+Net 67 "" ""
+ SW1:13 2
+ D1:13 1
+Net 68 "/COL4" "COL4"
+ U1 23
+ D4:4 2
+ D2:4 2
+ D1:4 2
+ D3:4 2
+Net 69 "/COL6" "COL6"
+ D1:6 2
+ U1 2
+ D4:6 2
+ D2:6 2
+ D3:6 2
+Net 70 "/COL12" "COL12"
+ U1 11
+ D4:12 2
+ D3:12 2
+ D0:12 2
+Net 71 "" ""
+ SW0:12 2
+ D0:12 1
+Net 72 "" ""
+ SW3:12 2
+ D3:12 1
+Net 73 "" ""
+ SW4:12 2
+ D4:12 1
+Net 74 "/COL8" "COL8"
+ D4:8 2
+ D2:8 2
+ D3:8 2
+ U1 4
+ D1:8 2
+Net 75 "/COL13" "COL13"
+ D1:13 2
+ D2:13 2
+ D0:13 2
+ D3:13 2
+ D4:13 2
+ U1 12
+Net 76 "" ""
+ D0:13 1
+ SW0:13 2
+Net 77 "/ROW3" "ROW3"
+ SW3:3 1
+ SW3:7 1
+ SW3:2 1
+ SW3:11 1
+ SW3:5 1
+ SW3:4 1
+ SW3:13 1
+ SW3:8 1
+ SW3:6 1
+ SW3:9 1
+ SW3:10 1
+ SW3:12 1
+ SW3:0 1
+ SW3:1 1
+ U1 25
+Net 78 "/COL10" "COL10"
+ D0:10 2
+ D3:10 2
+ D4:10 2
+ D2:10 2
+ D1:10 2
+ U1 6
+Net 79 "/ROW4" "ROW4"
+ SW4:2 1
+ SW4:10 1
+ SW4:6 1
+ SW4:1 1
+ SW4:5 1
+ SW4:0 1
+ SW4:4 1
+ SW4:13 1
+ SW4:3 1
+ SW4:7 1
+ SW4:8 1
+ SW4:9 1
+ SW4:11 1
+ SW4:12 1
+ U1 10
+Net 80 "" ""
+ SW0:0 2
+ D0:0 1
+Net 81 "GND" "GND"
  U1 1
-Net 98 "VCC" "VCC"
- U1 14
- U1 29
-Net 151 "/LED_C" "LED_C"
- U1 24
- R3 2
-Net 162 "" ""
- R1 1
- L1 1
-Net 165 "" ""
- R3 1
- L3 1
-Net 166 "" ""
- R2 1
+ L2 2
+ U1 15
+ L3 2
+ L1 2
+Net 83 "" ""
  L2 1
-Net 167 "/LED_A" "LED_A"
- U1 9
- R1 2
-Net 189 "/LED_B" "LED_B"
+ R2 1
+Net 84 "/LED_B" "LED_B"
  U1 8
  R2 2
+Net 85 "" ""
+ R3 1
+ L3 1
+Net 86 "" ""
+ R1 1
+ L1 1
+Net 87 "/LED_A" "LED_A"
+ U1 9
+ R1 2
+Net 88 "/LED_C" "LED_C"
+ U1 24
+ R3 2
+Net 91 "VCC" "VCC"
+ U1 14
+ U1 29
+Net 92 "" ""
+ SW1:0 2
+ D1:0 1
+Net 93 "/COL0" "COL0"
+ U1 17
+ D4:0 2
+ D0:0 2
+ D2:0 2
+ D3:0 2
+ D1:0 2
 }
 #End
