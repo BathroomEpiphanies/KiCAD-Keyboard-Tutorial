@@ -1,7 +1,7 @@
 (module CHERRY_PCB_200V (layer F.Cu)
 
-  (fp_text reference SW? (at 0 3.175) (layer F.SilkS) (effects (font (size 1.27 1.524) (thickness 0.2032))))
-  (fp_text value Val** (at 0 5.08) (layer F.SilkS) hide (effects (font (size 1.27 1.524) (thickness 0.2032))))
+  (fp_text reference SW? (at 3.175 0 90) (layer F.SilkS) (effects (font (size 1.27 1.524) (thickness 0.2032))))
+  (fp_text value Val** (at 5.08 0 90) (layer F.SilkS) hide (effects (font (size 1.27 1.524) (thickness 0.2032))))
 
   (fp_text user 2.00u (at -5.715 17.78) (layer Dwgs.User) (effects (font (thickness 0.3048))))
   
